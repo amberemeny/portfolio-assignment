@@ -21,14 +21,33 @@ body header #splash-wrapper #splash-content {
 
 body header #splash-wrapper #splash-content section {
   background-color: lime;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
 }
 
 body header #splash-wrapper #splash-content section p {
   background-color: green;
+  text-align: center;
 }
 
 body header #splash-wrapper #splash-content section p span {
   background-color: blue;
+  font-size: 2em;
+}
+
+body header #splash-wrapper #splash-content section hr {
+  width: 100px;
+  margin: 10px auto;
 }
 
 body header #nav-socials-wrapper {
@@ -41,14 +60,36 @@ body header #nav-socials-wrapper #navigation {
 
 body header #nav-socials-wrapper #navigation ul {
   background-color: purple;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3px 0px;
 }
 
 body header #nav-socials-wrapper #navigation ul li {
+  display: inherit;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
   background-color: violet;
+  padding: 10px;
+  margin: 3px 0px;
 }
 
 body header #nav-socials-wrapper #navigation ul li a {
   background-color: pink;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: black;
 }
 
 body header #nav-socials-wrapper #socials {
@@ -57,17 +98,28 @@ body header #nav-socials-wrapper #socials {
 
 body header #nav-socials-wrapper #socials ul {
   background-color: cadetblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 body header #nav-socials-wrapper #socials ul li {
   background-color: lemonchiffon;
+  list-style-type: none;
 }
 
 body header #nav-socials-wrapper #socials ul li a {
   background-color: crimson;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 body header #nav-socials-wrapper #socials ul li a img {
   background-color: paleturquoise;
+  max-width: 50px;
 }
 /*# sourceMappingURL=stylesheet.css.map */
