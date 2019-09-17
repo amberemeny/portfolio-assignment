@@ -1,0 +1,58 @@
+// Global Styles
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: darkred;
+    header {
+        background-color: red;
+        #splash-wrapper {
+            background-color: orange;
+            #splash-content {
+                background-color: yellow;
+                section {
+                    background-color: lime;
+                    p {
+                        background-color: green;
+                        span {
+                            background-color: blue;
+                        }
+                    }
+                }
+            }
+        }
+        #nav-socials-wrapper {
+            background-color: aqua;
+            #navigation {
+                background-color: navy;
+                ul {
+                    background-color: purple;
+                    li {
+                        background-color: violet;
+                        a {
+                            background-color: pink;
+                        }
+                    }
+                }
+            }
+            #socials {
+                background-color: salmon;
+                ul {
+                    background-color: cadetblue;
+                    li {
+                        background-color: lemonchiffon;
+                        a {
+                            background-color: crimson;
+                            img {
+                                background-color: paleturquoise;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

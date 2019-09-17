@@ -1,1 +1,73 @@
-/* No CSS *//*# sourceMappingURL=stylesheet.css.map */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: darkred;
+}
+
+body header {
+  background-color: red;
+}
+
+body header #splash-wrapper {
+  background-color: orange;
+}
+
+body header #splash-wrapper #splash-content {
+  background-color: yellow;
+}
+
+body header #splash-wrapper #splash-content section {
+  background-color: lime;
+}
+
+body header #splash-wrapper #splash-content section p {
+  background-color: green;
+}
+
+body header #splash-wrapper #splash-content section p span {
+  background-color: blue;
+}
+
+body header #nav-socials-wrapper {
+  background-color: aqua;
+}
+
+body header #nav-socials-wrapper #navigation {
+  background-color: navy;
+}
+
+body header #nav-socials-wrapper #navigation ul {
+  background-color: purple;
+}
+
+body header #nav-socials-wrapper #navigation ul li {
+  background-color: violet;
+}
+
+body header #nav-socials-wrapper #navigation ul li a {
+  background-color: pink;
+}
+
+body header #nav-socials-wrapper #socials {
+  background-color: salmon;
+}
+
+body header #nav-socials-wrapper #socials ul {
+  background-color: cadetblue;
+}
+
+body header #nav-socials-wrapper #socials ul li {
+  background-color: lemonchiffon;
+}
+
+body header #nav-socials-wrapper #socials ul li a {
+  background-color: crimson;
+}
+
+body header #nav-socials-wrapper #socials ul li a img {
+  background-color: paleturquoise;
+}
+/*# sourceMappingURL=stylesheet.css.map */
