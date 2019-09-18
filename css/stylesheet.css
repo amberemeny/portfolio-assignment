@@ -1,15 +1,15 @@
-body section h1 {
+body .index-section h1 {
   font-family: "Noto Serif", Georgia, "Times New Roman", Times, serif;
 }
 
-body section hr {
+body .index-section hr {
   max-width: 50px;
-  background-color: yellow;
   margin: 5px 0px 10px;
+  border-color: #4b5f7a;
 }
 
-body section article {
-  background-color: grey;
+body .index-section article {
+  background-color: #FFF6EF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,18 +21,19 @@ body section article {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 10px;
-  -webkit-box-shadow: 2px 2px 8px black;
-          box-shadow: 2px 2px 8px black;
+  -webkit-box-shadow: 2px 2px 10px #293342;
+          box-shadow: 2px 2px 10px #293342;
 }
 
-body section article h2 {
+body .index-section article h2 {
   text-transform: uppercase;
-  font-size: 1.2em;
+  font-size: 1.1em;
   letter-spacing: 2px;
   font-family: "Noto Serif", Georgia, "Times New Roman", Times, serif;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.336);
 }
 
-body section article p {
+body .index-section article p {
   margin: 20px;
 }
 
@@ -49,12 +50,16 @@ body #introduction {
   padding: 10px;
 }
 
+body #introduction h1 {
+  margin-bottom: 10px;
+}
+
 body #introduction article img {
   max-width: 300px;
   border-radius: 10px;
   margin: 0px 0px 20px;
-  -webkit-box-shadow: 1px 1px 5px black;
-          box-shadow: 1px 1px 5px black;
+  -webkit-box-shadow: 2px 2px 10px #10141a;
+          box-shadow: 2px 2px 10px #10141a;
 }
 
 body #values {
@@ -81,6 +86,14 @@ body #values article {
 
 body #values article p {
   margin: 10px 20px;
+}
+
+body #values article img {
+  max-width: 300px;
+  border-radius: 10px;
+  margin: 10px;
+  -webkit-box-shadow: 2px 2px 10px #10141a;
+          box-shadow: 2px 2px 10px #10141a;
 }
 
 @media screen and (min-width: 600px) {
@@ -113,6 +126,12 @@ body #values article p {
   body #values #values-container article {
     max-width: 45%;
   }
+  body #values #values-container article p {
+    margin: 10px;
+  }
+  body #values #values-container article img {
+    max-width: 100%;
+  }
 }
 
 @media screen and (min-width: 900px) {
@@ -126,6 +145,10 @@ body #values article p {
   body #values #values-container article {
     max-width: 22%;
   }
+  body #values #values-container article p {
+    padding: 0px;
+    margin: 5px;
+  }
 }
 
 * {
@@ -135,13 +158,11 @@ body #values article p {
 }
 
 body {
-  background-image: url(../images/background.png);
+  background-image: url(../images/background4.png);
 }
 
 body header #splash-wrapper #splash-content {
-  background-image: url(../images/splash-image.jpg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../images/background2.png);
 }
 
 body header #splash-wrapper #splash-content section {
@@ -161,7 +182,6 @@ body header #splash-wrapper #splash-content section {
   transition: -webkit-backdrop-filter 1s;
   transition: backdrop-filter 1s;
   transition: backdrop-filter 1s, -webkit-backdrop-filter 1s;
-  border-bottom: 1px solid black;
 }
 
 body header #splash-wrapper #splash-content section:hover {
@@ -193,7 +213,7 @@ body header #splash-wrapper #splash-content section hr {
 }
 
 body header #nav-socials-wrapper #navigation {
-  background-color: black;
+  background-color: #313E50;
 }
 
 body header #nav-socials-wrapper #navigation ul {
@@ -216,7 +236,7 @@ body header #nav-socials-wrapper #navigation ul .nav-links {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.562);
+  background-color: #FFF6EF;
   padding: 10px;
   margin: 3px 0px;
 }
@@ -224,15 +244,20 @@ body header #nav-socials-wrapper #navigation ul .nav-links {
 body header #nav-socials-wrapper #navigation ul .nav-links a {
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   color: black;
-  -webkit-transition: text-shadow 0.3s;
-  transition: text-shadow 0.3s;
+  -webkit-transition: color ease-in-out 0.3s;
+  transition: color ease-in-out 0.3s;
   font-weight: bold;
+  font-family: "Noto Serif", Georgia, "Times New Roman", Times, serif;
 }
 
 body header #nav-socials-wrapper #navigation ul .nav-links a:hover {
-  text-shadow: 0px 0px 3px white;
+  color: #656839;
+}
+
+body header #nav-socials-wrapper #navigation ul .nav-links a:active {
+  color: #F7D9C3;
 }
 
 body header #nav-socials-wrapper #navigation ul #socials-button {
@@ -256,11 +281,11 @@ body header #nav-socials-wrapper #navigation ul #socials-button #dropdown {
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
-  top: 40px;
-  background-color: black;
+  top: 42px;
+  background-color: #313E50;
   -webkit-box-shadow: 2px 2px 10px black;
           box-shadow: 2px 2px 10px black;
-  left: 0px;
+  left: 5px;
 }
 
 body header #nav-socials-wrapper #navigation ul #socials-button #dropdown:hover {
@@ -271,7 +296,7 @@ body header #nav-socials-wrapper #navigation ul #socials-button #dropdown:hover 
 
 body header #nav-socials-wrapper #navigation ul #socials-button #dropdown li {
   list-style-type: none;
-  background-color: rgba(255, 255, 255, 0.562);
+  background-color: #FFF6EF;
   margin: 3px 0px;
   width: 100%;
 }
@@ -309,8 +334,8 @@ body header #nav-socials-wrapper #navigation ul #socials-button #dropdown li a i
 }
 
 body header #nav-socials-wrapper #socials {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
-  background-image: linear-gradient(black, transparent);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#313E50), to(transparent));
+  background-image: linear-gradient(#313E50, transparent);
 }
 
 body header #nav-socials-wrapper #socials ul {
@@ -345,15 +370,22 @@ body header #nav-socials-wrapper #socials ul li a img:hover {
 }
 
 body footer {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(black));
-  background-image: linear-gradient(transparent, black);
-  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #313E50;
+  padding: 0px;
 }
 
 body footer p {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
+  background-color: #FFF6EF;
+  margin: 6px 0px;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 600px) {
