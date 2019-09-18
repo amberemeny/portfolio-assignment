@@ -7,12 +7,16 @@
 
 body {
     background-color: darkred;
+
     header {
         background-color: red;
+
         #splash-wrapper {
             background-color: orange;
+
             #splash-content {
                 background-color: yellow;
+
                 section {
                     background-color: rgb(0, 255, 0);
                     color: white;
@@ -20,14 +24,17 @@ body {
                     flex-direction: column;
                     align-items: center;
                     padding: 20px;
+
                     p {
                         background-color: green;
                         text-align: center;
+
                         span {
                             background-color: blue;
                             font-size: 2em;
                         }
                     }
+
                     hr {
                         width: 100px;
                         margin: 10px auto;
@@ -35,51 +42,111 @@ body {
                 }
             }
         }
+
         #nav-socials-wrapper {
-            background-color: aqua;
+            // background-color: aqua;
+
             #navigation {
-                background-color: navy;
+                // background-color: navy;
+
                 ul {
-                    background-color: purple;
+                    // background-color: purple;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
                     padding: 3px 0px;
-                    li {
+
+                    .nav-links {
                         display: inherit;
                         justify-content: center;
                         width: 100%;
-                        background-color: violet;
+                        background-color: rgba(255, 255, 255, 0.562);
                         padding: 10px;
                         margin: 3px 0px;
+
                         a {
-                            background-color: pink;
+                            // background-color: pink;
                             text-transform: uppercase;
                             text-decoration: none;
                             letter-spacing: 2px;
                             color: black;
                         }
                     }
+
+                    #socials-button {
+                        display: none;
+                        position: relative;
+                        
+
+                        &:hover>#dropdown { 
+                            opacity: 1;
+                        }
+
+                        #dropdown {
+                            display: flex;
+                            flex-direction: column;
+                            position: absolute;
+                            top: 30px;
+                            left: 0px;
+                            width: inherit;
+                            transition: opacity 0.8s;
+                            background-color: green;
+                            opacity: 0;
+                            left: 0;
+                        }
+                    }
                 }
             }
+
             #socials {
-                background-color: salmon;
+                // background-color: red;
+
                 ul {
-                    background-color: cadetblue;
                     display: flex;
                     justify-content: space-evenly;
+                    padding: 10px;
+
                     li {
-                        background-color: lemonchiffon;
                         list-style-type: none;
+
                         a {
-                            background-color: crimson;
                             display: flex;
+
                             img {
-                                background-color: paleturquoise;
                                 max-width: 50px;
                             }
                         }
                     }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        header {
+            #nav-socials-wrapper {
+                #navigation {
+                    ul {
+                        flex-direction: row;
+                        #socials-button {
+                            text-align: center;
+                            display: flex;
+                            flex-direction: column;
+                            li {
+                                a {
+                                    background-color: yellow;
+                                }
+                            }
+                            a {
+                                // background-color: blue;
+                            }
+                        }
+                    }
+                }
+                #socials {
+                    display: none;
                 }
             }
         }
