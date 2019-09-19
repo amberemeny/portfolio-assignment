@@ -8,47 +8,63 @@ body {
             padding: 6px;
 
             h1 {
-                background-color: #FFF6EF;
+                background-color: #656839;
+                text-align: center;
+                text-transform: uppercase;
+                text-shadow: 1px 1px 3px black;
+                color: #FFF6EF;
                 font-size: 1.5em;
-                letter-spacing: 0px;
+                letter-spacing: 2px;
                 padding: 3px 0px 3px 10px;
+                font-weight: 400;
                 margin-bottom: 6px;
                 font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
             }
 
             form {
                 color: black;
-                background-color: #656839;
+                background-color: #FFF6EF;
                 display: flex;
                 flex-direction: column;
-                padding: 6px;
                 max-width: 100%;
 
                 p {
                     // background-color: blue;
-                    margin: 0px auto 0px 6px;
+                    margin: 0px 3px;
+                    padding: 6px;
                     font-size: 1.2em;
+                    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.349);
                     font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
                 }
 
                 input {
                     // background-color: green;
-                    margin: 6px;
+                    margin: 0px 6px;
                     font-size: 1.2em;
                     max-width: 100%;
+                    border: 6px solid #656839;
+                     &:focus {
+                         border: 6px solid #313E50;
+                     }
                 }
 
                 textarea {
-                    margin: 6px;
+                    margin: 0px 6px;
                     height: 150px;
                     max-width: 100%;
+                    border: 6px solid #656839;
+                    &:focus {
+                        border: 6px solid #313E50;
+                    }
                 }
 
                 #submit {
                     align-self: center;
                     font-size: 1.2em;
                     padding: 3px 6px;
+                    margin: 6px;
                     font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
+                    border: 1px solid gray;
                 }
             }
         }
