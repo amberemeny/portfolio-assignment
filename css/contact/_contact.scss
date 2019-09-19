@@ -1,0 +1,87 @@
+body {
+    main {
+        
+        // background-color: red;
+        #form-container {
+            background-color: #313E50;
+            margin: 20px;
+            padding: 6px;
+
+            h1 {
+                background-color: #FFF6EF;
+                font-size: 1.5em;
+                letter-spacing: 0px;
+                padding: 3px 0px 3px 10px;
+                margin-bottom: 6px;
+                font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
+            }
+
+            form {
+                color: black;
+                background-color: #656839;
+                display: flex;
+                flex-direction: column;
+                padding: 6px;
+                max-width: 100%;
+
+                p {
+                    // background-color: blue;
+                    margin: 0px auto 0px 6px;
+                    font-size: 1.2em;
+                    font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
+                }
+
+                input {
+                    // background-color: green;
+                    margin: 6px;
+                    font-size: 1.2em;
+                    max-width: 100%;
+                }
+
+                textarea {
+                    margin: 6px;
+                    height: 150px;
+                    max-width: 100%;
+                }
+
+                #submit {
+                    align-self: center;
+                    font-size: 1.2em;
+                    padding: 3px 6px;
+                    font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    main {
+        display: flex;
+        justify-content: center;
+        #form-container {
+            form {
+                p {}
+
+                input {
+                    width: 250px;
+                }
+
+                textarea {
+                    width: 400px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 900px) {
+    main {
+        #form-container {
+            form {
+                p {
+                }
+            }
+        }
+    }
+}
