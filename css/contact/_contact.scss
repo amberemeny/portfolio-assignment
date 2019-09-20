@@ -1,60 +1,68 @@
+// Importing global styles.
+@import '../global-styles';
+
 body {
+
+    // Main section.
     main {
-        
-        // background-color: red;
+
+        // Div for the form and heading.
         #form-container {
-            background-color: #313E50;
+            background-color: $blue;
             margin: 20px;
             padding: 6px;
 
             h1 {
-                background-color: #656839;
+                @include serif-font;
+                background-color: $green;
                 text-align: center;
                 text-transform: uppercase;
                 text-shadow: 1px 1px 3px black;
-                color: #FFF6EF;
+                color: $white;
                 font-size: 1.5em;
                 letter-spacing: 2px;
                 padding: 3px 0px 3px 10px;
                 font-weight: 400;
                 margin-bottom: 6px;
-                font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
             }
 
             form {
                 color: black;
-                background-color: #FFF6EF;
+                background-color: $white;
                 display: flex;
                 flex-direction: column;
                 max-width: 100%;
 
+                // Labels for each input.
                 p {
-                    // background-color: blue;
                     margin: 0px 3px;
                     padding: 6px;
                     font-size: 1.2em;
                     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.349);
-                    font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
                 }
 
+                // Input boxes.
                 input {
-                    // background-color: green;
                     margin: 0px 6px;
                     font-size: 1.2em;
                     max-width: 100%;
-                    border: 6px solid #656839;
-                     &:focus {
-                         border: 6px solid #313E50;
-                     }
+                    border: 6px solid $green;
+
+                    &:focus {
+                        border: 6px solid $blue;
+                    }
                 }
 
+                // Message text area.
                 textarea {
                     margin: 0px 6px;
                     height: 150px;
                     max-width: 100%;
-                    border: 6px solid #656839;
+                    border: 6px solid $green;
+                    font-size: 1.2em;
+
                     &:focus {
-                        border: 6px solid #313E50;
+                        border: 6px solid $blue;
                     }
                 }
 
@@ -63,7 +71,6 @@ body {
                     font-size: 1.2em;
                     padding: 3px 6px;
                     margin: 6px;
-                    font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
                     border: 1px solid gray;
                 }
             }
@@ -71,31 +78,20 @@ body {
     }
 }
 
+// If the screen is wider than 600px.
 @media screen and (min-width: 600px) {
     main {
-        display: flex;
+        @include flex-row;
         justify-content: center;
+
         #form-container {
             form {
-                p {}
-
                 input {
                     width: 250px;
                 }
 
                 textarea {
                     width: 400px;
-                }
-            }
-        }
-    }
-}
-
-@media screen and (min-width: 900px) {
-    main {
-        #form-container {
-            form {
-                p {
                 }
             }
         }

@@ -1,0 +1,19 @@
+@mixin serif-font {
+    font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
+}
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+$white: #FFF6EF;
+$green: #656839;
+$blue: #313E50;
+
+$serif: 'Noto Serif', Georgia, 'Times New Roman', Times, serif

@@ -1,16 +1,11 @@
-$serif: 'Noto Serif',
-Georgia,
-'Times New Roman',
-Times,
-serif;
+// Importing Global Styles
+@import '../global-styles'; 
 
 body {
-
+    // Introduction and Values div styles.
     .index-section {
-
         h1 {
-            // background-color: orange;
-            font-family: $serif;
+            @include serif-font;
         }
 
         hr {
@@ -20,32 +15,29 @@ body {
         }
 
         article {
-            background-color: #FFF6EF;
-            display: flex;
-            flex-direction: column;
+            @include flex-column;
+            background-color: $white;
             align-items: center;
             box-shadow: 2px 2px 10px black;
-            border: 6px solid #656839;
+            border: 6px solid $green;
 
             h2 {
+                @include serif-font;
                 text-transform: uppercase;
                 font-size: 1.1em;
                 letter-spacing: 2px;
-                font-family: $serif;
                 text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.336);
             }
 
             p {
-                // background-color: green;
                 margin: 20px;
             }
         }
     }
 
+    // Introduction specific div styles.
     #introduction {
-        display: flex;
-        flex-direction: column;
-        // background-color: red;
+        @include flex-column;
         max-width: 90%;
         margin: 10px auto;
         padding: 10px;
@@ -64,16 +56,15 @@ body {
         }
     }
 
+    // Values specific div styles.
     #values {
-        display: flex;
-        flex-direction: column;
+        @include flex-column;
         max-width: 90%;
         margin: 10px auto;
         padding: 10px;
 
         hr {
             margin: 5px 0px 0px;
-
         }
 
         article {
@@ -94,15 +85,14 @@ body {
     }
 }
 
-
+// When screen is wider than 500px.
 @media screen and (min-width: 500px) {
     body {
-        #introduction {
 
+        // Widening introduction div.
+        #introduction {
             article {
                 max-width: 100%;
-                p {
-                }
 
                 img {
                     padding: 0px;
@@ -112,9 +102,10 @@ body {
             }
         }
 
+        // Wrapping values articles.
         #values {
             #values-container {
-                display: flex;
+                @include flex-row;
                 flex-flow: wrap;
                 justify-content: space-between;
 
@@ -134,15 +125,14 @@ body {
     }
 }
 
+// When the screen is larger than 600px.
 @media screen and (min-width: 600px) {
     body {
+        // Changing layout of introduction div.
         #introduction {
-            
             article {
+                @include flex-row;
                 max-width: 100%;
-                flex-direction: row;
-                p {
-                }
 
                 img {
                     padding: 0px;
@@ -154,7 +144,10 @@ body {
     }
 }
 
+// When screen is larger than 900px.
 @media screen and (min-width: 900px) {
+    
+    // Stops divs expanding beyond 900px.
     body {
         #introduction {
             max-width: 900px;
@@ -167,7 +160,6 @@ body {
             #values-container {
                 article {
                     max-width: 20%;
-                    
 
                     p {
                         padding: 0px;

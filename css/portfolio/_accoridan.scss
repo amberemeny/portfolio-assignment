@@ -1,30 +1,28 @@
 // This css styles the accordian on the portfolio page 
-$serif: 'Noto Serif',
-Georgia,
-'Times New Roman',
-Times,
-serif;
+// Importing global styles
+@import '../global-styles';
 
+// Entire accordian div including title.
 #accordian {
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     max-width: 100%;
     margin: 0px auto 20px;
     padding: 0px 20px;
 
-    // Transition class
+    // Transition class.
     .transition { 
         transition: all 0.5s ease-in-out;
     }
 
-    // Main Heading
+    // Main heading.
     h1 {
+        @include serif-font;
         font-size: 1.5em;
         letter-spacing: 0px;
         margin: 20px 0px 10px;
-        font-family: $serif;
     }
 
+    // Section content styling.
     p {
         font-size: 1em;
         position: relative;
@@ -43,20 +41,25 @@ serif;
         perspective: 900;
         padding: 3px 0px;
         margin: 0;
-        background-color: #656839;
+        background-color: $green;
         box-shadow: 2px 2px 8px black;
+
+        // List of categories.
         li {
 
+            // Section headings.
             h2 {
+                @include serif-font;
                 margin: 3px 6px;
                 padding: 10px;
-                font-family: $serif;
-                background-color: #FFF6EF;
+                background-color: $white;
                 text-transform: uppercase;
                 font-size: 1.2em;
                 letter-spacing: 2px;
             }
         }
+
+        // Unseen.
         i {
             position: absolute;
             transform: translate(-25px, 0);
@@ -68,7 +71,7 @@ serif;
                 position: absolute;
                 background-color: black;
                 width: 3px;
-                height: 9px;
+                height: 7px;
             }
             &:before {
                 transform: translate(-2px, 0) rotate(45deg);
@@ -77,6 +80,8 @@ serif;
                 transform: translate(2px, 0) rotate(-45deg);
             }
         }
+
+        // Unseen.
         input[type=checkbox] {
             position: absolute;
             cursor: pointer;
@@ -103,6 +108,7 @@ serif;
     }
 }
 
+// If the screen is wider than 600px.
 @media screen and (min-width: 600px) {
     body {
         #accordian {
@@ -111,6 +117,7 @@ serif;
     }
 }
 
+// If the screen is wider than 900px;
 @media screen and (min-width: 900px) {
     body {
         #accordian {

@@ -1,5 +1,5 @@
 body .index-section h1 {
-  font-family: "Noto Serif", Georgia, "Times New Roman", Times, serif;
+  font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
 }
 
 body .index-section hr {
@@ -9,7 +9,6 @@ body .index-section hr {
 }
 
 body .index-section article {
-  background-color: #FFF6EF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,6 +16,7 @@ body .index-section article {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-color: #FFF6EF;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -26,10 +26,10 @@ body .index-section article {
 }
 
 body .index-section article h2 {
+  font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
   text-transform: uppercase;
   font-size: 1.1em;
   letter-spacing: 2px;
-  font-family: "Noto Serif", Georgia, "Times New Roman", Times, serif;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.336);
 }
 
@@ -109,6 +109,10 @@ body #values article img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -ms-flex-flow: wrap;
         flex-flow: wrap;
     -webkit-box-pack: justify;
@@ -128,11 +132,14 @@ body #values article img {
 
 @media screen and (min-width: 600px) {
   body #introduction article {
-    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    max-width: 100%;
   }
   body #introduction article img {
     padding: 0px;
@@ -177,10 +184,10 @@ body #values article img {
 }
 
 #accordian h1 {
+  font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
   font-size: 1.5em;
   letter-spacing: 0px;
   margin: 20px 0px 10px;
-  font-family: "Noto Serif", Georgia, "Times New Roman", Times, serif;
 }
 
 #accordian p {
@@ -210,9 +217,9 @@ body #values article img {
 }
 
 #accordian ul li h2 {
+  font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
   margin: 3px 6px;
   padding: 10px;
-  font-family: "Noto Serif", Georgia, "Times New Roman", Times, serif;
   background-color: #FFF6EF;
   text-transform: uppercase;
   font-size: 1.2em;
@@ -232,7 +239,7 @@ body #values article img {
   position: absolute;
   background-color: black;
   width: 3px;
-  height: 9px;
+  height: 7px;
 }
 
 #accordian ul i:before {
@@ -289,6 +296,7 @@ body main #form-container {
 }
 
 body main #form-container h1 {
+  font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
   background-color: #656839;
   text-align: center;
   text-transform: uppercase;
@@ -299,7 +307,6 @@ body main #form-container h1 {
   padding: 3px 0px 3px 10px;
   font-weight: 400;
   margin-bottom: 6px;
-  font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
 }
 
 body main #form-container form {
@@ -320,7 +327,6 @@ body main #form-container form p {
   padding: 6px;
   font-size: 1.2em;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.349);
-  font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
 }
 
 body main #form-container form input {
@@ -339,6 +345,7 @@ body main #form-container form textarea {
   height: 150px;
   max-width: 100%;
   border: 6px solid #656839;
+  font-size: 1.2em;
 }
 
 body main #form-container form textarea:focus {
@@ -352,7 +359,6 @@ body main #form-container form #submit {
   font-size: 1.2em;
   padding: 3px 6px;
   margin: 6px;
-  font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
   border: 1px solid gray;
 }
 
@@ -361,6 +367,10 @@ body main #form-container form #submit {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -411,10 +421,10 @@ body #blog-main #blog-wrapper #blog-nav {
 }
 
 body #blog-main #blog-wrapper #blog-nav nav h3 {
+  font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
   padding: 3px 6px;
   background-color: #FFF6EF;
   margin-bottom: 6px;
-  font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
 }
 
 body #blog-main #blog-wrapper #blog-nav nav ul {
@@ -454,10 +464,6 @@ body #blog-main #blog-wrapper #blog-section-wrapper .blog-section h2 {
   padding: 3px 3px 3px 6px;
 }
 
-body #blog-main #blog-wrapper #blog-section-wrapper .blog-section .blog-article-content {
-  background-color: lemonchiffon;
-}
-
 body #blog-main #blog-wrapper #blog-section-wrapper .blog-section .blog-article-content p {
   background-color: #FFF6EF;
   padding: 6px;
@@ -481,6 +487,10 @@ body #blog-main #blog-wrapper #blog-section-wrapper .blog-section .blog-article-
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -497,6 +507,10 @@ body #blog-main #blog-wrapper #blog-section-wrapper .blog-section .blog-article-
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;

@@ -1,37 +1,40 @@
+// Importing global styles.
+@import '../global-styles';
+
 body {
+    // Main section for the blog page.
     #blog-main {
-        // background-color: hotpink;
-        display: flex;
-        flex-direction: column;
+        @include flex-column;
         max-width: 90%;
         margin: 20px auto;
         align-items: center;
 
         h2 {
-            font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
+            @include serif-font;
             margin-bottom: 10px;
             text-align: center;
         }
 
+        // Contains blog nav and articles. 
         #blog-wrapper {
-            display: flex;
-            flex-direction: column;
+            @include flex-column;
 
+            // Blog quick-navigation.
             #blog-nav {
-                background-color: #656839;
+                background-color: $green;
                 margin-bottom: 6px;
                 padding: 6px;
 
                 nav {
                     h3 {
+                        @include serif-font;
                         padding: 3px 6px;
-                        background-color: #FFF6EF;
+                        background-color: $white;
                         margin-bottom: 6px;
-                        font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
                     }
 
                     ul {
-                        background-color: #FFF6EF;
+                        background-color: $white;
 
                         li {
                             list-style-type: none;
@@ -50,26 +53,27 @@ body {
                 }
             }
 
+            // Wrapper of blog headings and content.
             #blog-section-wrapper {
-                background-color: #313E50;
+                background-color: $blue;
 
+                // Class for headings and articles.
                 .blog-section {
-                    background-color: #656839;
+                    background-color: $green;
                     margin: 6px;
                     padding: 6px;
 
                     h2 {
-                        background-color: #FFF6EF;
+                        background-color: $white;
                         margin-bottom: 6px;
                         text-align: left;
                         padding: 3px 3px 3px 6px;
                     }
 
                     .blog-article-content {
-                        background-color: lemonchiffon;
 
                         p {
-                            background-color: #FFF6EF;
+                            background-color: $white;
                             padding: 6px;
                         }
                     }
@@ -79,8 +83,12 @@ body {
     }
 }
 
+
+// If the screen is wider than 600px.
 @media screen and (min-width: 600px) {
     body {
+
+        // Jump to top button.
         #jump {
             position: fixed;
             bottom: 2px;
@@ -92,47 +100,38 @@ body {
             border: solid 6px #313313;
 
             &:hover {
-                border: solid 6px #313E50;
+                border: solid 6px $blue;
             }
 
             a {
-                display: flex;
+                @include flex-row;
                 justify-content: center;
                 align-items: center;
                 text-decoration: none;
                 color: black;
-                background-color: #FFF6EF;
+                background-color: $white;
                 width: 100%;
                 max-height: 100%;
             }
         }
 
         #blog-main {
-            h2 {}
-
             #blog-wrapper {
                 #blog-nav {
                     nav {
-                        h3 {}
-
                         ul {
-                            display: flex;
+                            @include flex-row;
                             justify-content: space-evenly;
                             flex-wrap: wrap;
-
-                            li {
-                                a {}
-                            }
                         }
                     }
                 }
-
-                #blog-section-wrapper {}
             }
         }
     }
 }
 
+// If screen is wider than 900px;
 @media screen and (min-width: 900px) {
     #blog-main {
         #blog-wrapper {
