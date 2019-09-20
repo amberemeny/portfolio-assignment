@@ -56,7 +56,7 @@ body {
 
         article {
             img {
-                max-width: 300px;
+                max-width: 70%;
                 border-radius: 10px;
                 margin: 0px 0px 20px;
                 box-shadow: 2px 2px 10px rgb(16, 20, 26);
@@ -85,7 +85,7 @@ body {
             }
 
             img {
-                max-width: 300px;
+                max-width: 95%;
                 border-radius: 10px;
                 margin: 10px;
                 box-shadow: 2px 2px 10px rgb(16, 20, 26);
@@ -95,23 +95,19 @@ body {
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 500px) {
     body {
         #introduction {
 
             article {
-                flex-direction: row;
                 max-width: 100%;
-                max-height: 300px;
-
                 p {
-                    max-width: 70%;
                 }
 
                 img {
-                    max-width: 30%;
                     padding: 0px;
                     margin: 20px;
+                    max-width: 70%;
                 }
             }
         }
@@ -123,15 +119,35 @@ body {
                 justify-content: space-between;
 
                 article {
-                    max-width: 43%;
+                    max-width: 40%;
 
                     p {
                         margin: 10px;
                     }
 
                     img {
-                        max-width: 100%;
+                        max-width: 90%;
                     }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        #introduction {
+            
+            article {
+                max-width: 100%;
+                flex-direction: row;
+                p {
+                }
+
+                img {
+                    padding: 0px;
+                    margin: 20px;
+                    max-width: 40%;
                 }
             }
         }
@@ -151,6 +167,7 @@ body {
             #values-container {
                 article {
                     max-width: 20%;
+                    
 
                     p {
                         padding: 0px;

@@ -2,6 +2,7 @@
 @import './portfolio/portfolio';
 @import './portfolio/accoridan';
 @import './contact/contact';
+@import './blog/blog';
 
 // Global Styles
 * {
@@ -140,8 +141,9 @@ body {
                                     transition: text-shadow 0.3s;
 
                                     &:hover {
+                                        color: #656839;
                                         img {
-                                            filter: drop-shadow(0px 0px 3px white);
+                                            filter: drop-shadow(0px 0px 3px #656839);
                                         }
                                     }
 
