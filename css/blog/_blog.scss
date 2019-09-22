@@ -71,11 +71,19 @@ body {
                     }
 
                     .blog-article-content {
-
+                        background-color: $white;
+                        display: flex;
+                        align-content: center;
                         p {
-                            background-color: $white;
+                            @include flex-column;
+                            align-items: center;
                             padding: 6px;
+                            img {
+                                max-width: 100%;
+                                padding: 10px;
+                            }
                         }
+                        
                     }
                 }
             }
@@ -126,6 +134,20 @@ body {
                         }
                     }
                 }
+                #blog-section-wrapper {
+                    .blog-section {
+                        .blog-article-content {
+                            p {
+                                display: block;
+                                img {
+                                    float: left;
+                                    max-width: 300px;
+                                    padding: 10px 10px 10px 6px;
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
@@ -136,6 +158,10 @@ body {
     #blog-main {
         #blog-wrapper {
             max-width: 900px;
+            .blog-section {
+                .blog-section {
+                }
+            }
         }
     }
 }

@@ -1,0 +1,58 @@
+@import "../global-styles";
+
+body {
+    #accordian {
+        ul {
+            li {
+                #technical-skills {
+                    @include flex-column;
+                    .skill-title {
+                        color: $white;
+                        background-color: orange;
+                    }
+                    #containerspan {
+                        @include flex-row;
+                        justify-content: center;
+                        align-items: center;
+                        .tech-icon {
+                            // background-color: purple;
+                            max-width: 10%;
+                        }
+                        .bar {
+                            // background-color: green;   
+                            max-width: 90%;            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        #accordian {
+            ul {
+                li {
+                    #technical-skills {
+                        .skill-title {
+                            color: $white;
+                            background-color: orange;
+                            margin-left: 6%;
+                        }
+                        #containerspan {
+                            .tech-icon {
+                                background-color: blue;
+                                
+                            }
+                            .bar {
+                                background-color: pink;
+                                                   
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
