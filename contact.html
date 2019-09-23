@@ -2,34 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="Description" content="A website page.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Nunito&display=swap" rel="stylesheet">
     <title>Amber Emeny | The Ivy Coder</title>
 </head>
 <body>
 
-<!--COMMENTS FOR GLOBAL HEADING IN INDEX-->
-    <header>
-        <div id="splash-wrapper">
-            <div id="splash-content">
+    <!--COMMENTS FOR GLOBAL HEADING IN INDEX-->
+    <header> <!-- Universal Header -->
+        <div id="splash-wrapper"> 
+            <div id="splash-content"> <!--Wrapper for heading and splash banner-->
                 <section>
                     <p>Hello! I'm<br><span>Amber Emeny</span></p>
                     <hr>
                     <p>a.k.a The Ivy Coder</p>
                 </section>
             </div>
-        <div id="nav-socials-wrapper">
+        <div id="nav-socials-wrapper"> <!--Navigation and Social Links-->
             <nav id="navigation">
                 <ul>
-                    <li class="nav-links"><a href="./index.html">Home</a></li>
-                    <li class="nav-links"><a href="./portfolio.html">Portfolio</a></li>
-                    <li class="nav-links"><a href="./blog.html">Blog</a></li>
-                    <li class="nav-links" id="socials-button"><a>Socials</a>
+                    <li class="nav-links"><a href="./index.html" title="homepage">Home</a></li>
+                    <li class="nav-links"><a href="./portfolio.html" title="portfolio">Portfolio</a></li>
+                    <li class="nav-links"><a href="./blog.html" title="blog page">Blog</a></li>
+                    <li class="nav-links" id="socials-button" title="socials dropdown"><a>Socials</a>
                         <ul id="dropdown">
-                            <li><a href="./index.html"><p>Linkedin</p><img src="./images/linkedin.png"></a></li>
-                            <li><a href="./index.html"><p>Twitter</p><img src="./images/twitter.png"></a></li>
-                            <li><a href="./index.html"><p>Github</p><img src="./images/github.png"></a></li>
-                            <li><a href="./index.html"><p>Pintrest</p><img src="./images/pinterest.png"></a></li>
+                            <li><a href="www.linkedin.com/in/amberemeny" title="linkedin"><p>Linkedin</p><img src="./images/linkedin.png" alt="linkedin logo"></a></li>
+                            <li><a href="https://twitter.com/theivycoder" title="twitter"><p>Twitter</p><img src="./images/twitter.png" alt="twitter logo"></a></li>
+                            <li><a href="https://github.com/amberemeny" title="github"><p>Github</p><img src="./images/github.png" alt="github logo"></a></li>
+                            <li><a href="https://www.pinterest.com.au/aemeny0006/" title="pinterest"><p>Pinterest</p><img src="./images/pinterest.png" alt="pinterest logo"></a></li>
                         </ul>
                         </li>
                     <li class="nav-links"><a href="./contact.html">Contact</a></li>
@@ -37,10 +39,10 @@
             </nav>
             <nav id="socials">
                 <ul>
-                    <li><a href="./index.html"><p></p><img src="./images/linkedin.png"></a></li>
-                    <li><a href="./index.html"><p></p><img src="./images/twitter.png"></a></li>
-                    <li><a href="./index.html"><p></p><img src="./images/github.png"></a></li>
-                    <li><a href="./index.html"><p></p><img src="./images/pinterest.png"></a></li>
+                    <li><a href="www.linkedin.com/in/amberemeny" title="linkedin"><img src="./images/linkedin.png" alt="linkedin logo"></a></li>
+                    <li><a href="https://twitter.com/theivycoder" title="twitter"><img src="./images/twitter.png" alt="twitter logo"></a></li>
+                    <li><a href="https://github.com/amberemeny" title="github"><img src="./images/github.png" alt="github logo"></a></li>
+                    <li><a href="https://www.pinterest.com.au/aemeny0006/" title="pinterest"><img src="./images/pinterest.png" alt="pinterest logo"></a></li>
                 </ul>
             </nav>
         </div>
@@ -50,7 +52,7 @@
             
             <section id="form-container">
                 <h1>Contact Form</h1>
-                <form>
+                <form action="https://mailthis.to/amberemeny@outlook.com">
                     <p>First name:*</p>
                     <input type="text" name="firstname" required autofocus>
                     <p>Last Name*</p>  
