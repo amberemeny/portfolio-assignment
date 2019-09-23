@@ -4,24 +4,91 @@ body {
     #accordian {
         ul {
             li {
+                // Technical Skills Section
                 #technical-skills {
                     @include flex-column;
                     .skill-title {
                         color: $white;
-                        background-color: orange;
                     }
+                    // Containing each icon and bar.
                     #containerspan {
                         @include flex-row;
                         justify-content: center;
                         align-items: center;
                         .tech-icon {
-                            // background-color: purple;
-                            max-width: 10%;
+                            max-width: 45px;
+                            padding: 6px 0px;
                         }
                         .bar {
-                            // background-color: green;   
                             max-width: 90%;            
                         }
+                    }
+                    // Tools I use to develop section.
+                    #development-text {
+                        background-color: $white;
+                        margin: 8px 0px;
+                        padding-left: 6px;
+                        border: 6px solid $blue;
+                        #development-list {
+                            @include flex-row;
+                            justify-content: space-evenly;
+                            img {
+                                max-width: 15%;
+                                padding: 10px;
+                            }
+                        }
+                    }
+                }
+                // Projects section.
+                #project-section {
+                    @include flex-column;
+                    justify-content: center;
+                    align-items: center;
+                    color: $white;
+                    // Title style.
+                    .project-title {
+                        font-weight: bold;
+                        font-size: 1.5em;
+                        margin-top: 6px;
+                        text-shadow: 2px 2px 4px black;
+                    }
+                    // Project information.
+                    .project-info {
+                        @include flex-column;
+                        margin: 6px 0px;
+                        img {
+                            background-color: $white;
+                            max-width: 100%;
+                            margin: 10px;
+                            box-shadow: 2px 2px 5px black;
+                        }
+                    }   
+                }
+                // Interactive skills section.
+                #interactive-skills {
+                    color: $white;
+                    @include flex-column;
+                    justify-content: center;
+                    align-items: center;
+                    .interactive-section {
+                        @include flex-column;
+                        margin: 6px;
+                        .interactive-title {
+                            font-size: 1.5em;
+                            font-weight: bold;
+                            text-shadow: 2px 2px 4px black;
+                            margin-bottom: 6px;
+                        }
+                    }
+                }
+                // About me section wrapper.
+                #about-me-wrapper {
+                    @include flex-column;
+                    #about-me {
+                        background-color: $white;
+                        margin: 6px;
+                        padding: 6px;
+                        border: 6px solid $blue;
                     }
                 }
             }
@@ -34,20 +101,50 @@ body {
         #accordian {
             ul {
                 li {
+                    // Technical Skills section.
                     #technical-skills {
+                        justify-content: center;
+                        align-items: center;
                         .skill-title {
                             color: $white;
-                            background-color: orange;
+                            align-self: flex-start;
                             margin-left: 6%;
+                            max-width: 500px;
                         }
+                        // Contains bar and icon.
                         #containerspan {
+                            max-width: 500px;
                             .tech-icon {
-                                background-color: blue;
-                                
                             }
-                            .bar {
-                                background-color: pink;
-                                                   
+                            .bar {                  
+                            }
+                        }
+                        // Tools I use to develop section.
+                        #development-text {
+                            max-width: 500px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// If the screen is wider than 900px;
+@media screen and (min-width: 900px) {
+    body {
+        #accordian {
+            ul {
+                li {
+                    // Projects section.
+                    #project-section {
+                        .project-title {
+
+                        }
+                        .project-info {
+                            img {
+                                max-width: 50%;
+                                align-self: center;
                             }
                         }
                     }

@@ -177,7 +177,6 @@ body #accordian ul li #technical-skills {
 
 body #accordian ul li #technical-skills .skill-title {
   color: #FFF6EF;
-  background-color: orange;
 }
 
 body #accordian ul li #technical-skills #containerspan {
@@ -197,24 +196,164 @@ body #accordian ul li #technical-skills #containerspan {
 }
 
 body #accordian ul li #technical-skills #containerspan .tech-icon {
-  max-width: 10%;
+  max-width: 45px;
+  padding: 6px 0px;
 }
 
 body #accordian ul li #technical-skills #containerspan .bar {
   max-width: 90%;
 }
 
+body #accordian ul li #technical-skills #development-text {
+  background-color: #FFF6EF;
+  margin: 8px 0px;
+  padding-left: 6px;
+  border: 6px solid #313E50;
+}
+
+body #accordian ul li #technical-skills #development-text #development-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body #accordian ul li #technical-skills #development-text #development-list img {
+  max-width: 15%;
+  padding: 10px;
+}
+
+body #accordian ul li #project-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFF6EF;
+}
+
+body #accordian ul li #project-section .project-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 6px;
+  text-shadow: 2px 2px 4px black;
+}
+
+body #accordian ul li #project-section .project-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 6px 0px;
+}
+
+body #accordian ul li #project-section .project-info img {
+  background-color: #FFF6EF;
+  max-width: 100%;
+  margin: 10px;
+  -webkit-box-shadow: 2px 2px 5px black;
+          box-shadow: 2px 2px 5px black;
+}
+
+body #accordian ul li #interactive-skills {
+  color: #FFF6EF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #accordian ul li #interactive-skills .interactive-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 6px;
+}
+
+body #accordian ul li #interactive-skills .interactive-section .interactive-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px black;
+  margin-bottom: 6px;
+}
+
+body #accordian ul li #about-me-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body #accordian ul li #about-me-wrapper #about-me {
+  background-color: #FFF6EF;
+  margin: 6px;
+  padding: 6px;
+  border: 6px solid #313E50;
+}
+
 @media screen and (min-width: 600px) {
+  body #accordian ul li #technical-skills {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   body #accordian ul li #technical-skills .skill-title {
     color: #FFF6EF;
-    background-color: orange;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
     margin-left: 6%;
+    max-width: 500px;
   }
-  body #accordian ul li #technical-skills #containerspan .tech-icon {
-    background-color: blue;
+  body #accordian ul li #technical-skills #containerspan {
+    max-width: 500px;
   }
-  body #accordian ul li #technical-skills #containerspan .bar {
-    background-color: pink;
+  body #accordian ul li #technical-skills #development-text {
+    max-width: 500px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body #accordian ul li #project-section .project-info img {
+    max-width: 50%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
 }
 
@@ -249,7 +388,7 @@ body #accordian ul li #technical-skills #containerspan .bar {
   overflow: hidden;
   line-height: 1.6em;
   padding: 0px 10px;
-  max-height: 800px;
+  max-height: 10000px;
   -webkit-transition: max-height 0.5s, opacity 0.5s;
   transition: max-height 0.5s, opacity 0.5s;
   opacity: 1;

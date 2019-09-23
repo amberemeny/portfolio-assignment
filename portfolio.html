@@ -74,10 +74,16 @@
                 <input type="checkbox" checked>
                 <i></i>
                 <h2>About Me</h2>
-                <p>This page was written in HTML and CSS. The CSS was compiled from SASS. I used Normalize as my CSS
-                    reset and -prefix-free to save myself some headaches. I haven't quite gotten the hang of Slim for
-                    compiling into HTML, but someday I'll use it since its syntax compliments that of SASS. Regardless,
-                    this could all be done in plain HTML and CSS.</p>
+                <p id="about-me-wrapper">
+                    <span id="about-me">
+                        First of all, welcome to my website. I hope it's at least a little evident through my design and concept, what kind of person I am. I'd like to tell you a little bit more about myself.
+                        <br>
+                        I have always been a bubbly and extroverted person. Initially, the face to face interaction is what drew me to working in retail, until I realised the mental stimulation wasn't enough to keep me interested.
+                        My tech-oriented mindset led me to gaming, visual design, and eventually coding. My imaginative insight and desire to experiment has helped me thrive in my coding study and it continues to satisfy my mind like nothing else.
+                        <br>
+                        Aside from gaming, I love to design, draw, paint, embroider, make jewellery and look after my plants, of which I have too many.
+                    </span>
+                </p>
             </li>
 
         <!--INTERACTIVE SKILLS SECTION-->
@@ -85,10 +91,26 @@
                 <input type="checkbox" checked>
                 <i></i>
                 <h2>Interactive Skills</h2>
-                <p>Using the sibling and checked selectors, we can determine the styling of sibling elements based on
-                    the checked state of the checkbox input element. One use, as demonstrated here, is an entirely CSS
-                    and HTML accordion element. Media queries are used to make the element responsive to different
-                    screen sizes.</p>
+                <p id="interactive-skills">
+                    <span class="interactive-section">
+                        <span class="interactive-title">Communication</span>
+                        As one of my core values, effective communication is a skill I pride myself in. 
+                        I am well practiced in active listenting, believe strongly in respect, empathy and constructive feedback.
+                    </span>
+                    <span class="interactive-section">
+                        <span class="interactive-title">Teamwork</span>
+                        Great teamwork is essential in the tech industry and is something I have plenty of experience in. Conflict managment is a skill I have developed
+                        working in retail for many years. Collaboration, mediation, delegation, and negotiating are some of my key strengths.
+                    </span>
+                    <span class="interactive-section">
+                            <span class="interactive-title">Adaptability</span> 
+                            I excel in adaptability. My natual curiosity, passion for learning, open-mindedness and refined decision-making all help me in being able to adapt to difficult and ever-changing situations.
+                    </span>
+                    <span class="interactive-section">
+                        <span class="interactive-title">Work Ethic</span>
+                        All of my core values as listed on the home page contribute to my overall work ethic. I connect most with those who share similar traits such as self-confidence, initiative, commitment, dependability and professionalism.
+                    </span>
+                </p>
             </li>
 
         <!--TECHNICAL SKILLS SECTION-->
@@ -97,9 +119,35 @@
                 <i></i>
                 <h2>Technical Skills</h2>
                 <p id="technical-skills">
+
                     <span class="skill-title">HTML5 - Intermediate to advanced knowledge.</span>
                     <span id="containerspan">
-                    <img src="./images/icons/html.png" class="tech-icon"><img src="./images/progress-bars/80.png" class="bar">
+                    <img src="./images/icons/html.png" class="tech-icon"><img src="./images/progress-bars/30.png" class="bar">
+                    </span>
+
+                    <span class="skill-title">CSS - Intermediate to advanced knowledge.</span>
+                    <span id="containerspan">
+                    <img src="./images/icons/css.png" class="tech-icon"><img src="./images/progress-bars/30.png" class="bar">
+                    </span>
+
+                    <span class="skill-title">Ruby - Beginner to intermediate knowledge.</span>
+                    <span id="containerspan">
+                    <img src="./images/icons/ruby.png" class="tech-icon"><img src="./images/progress-bars/30.png" class="bar">
+                    </span>
+
+                    <span class="skill-title">Javascript - Developing knowledge - Watch this space!</span>
+                    <span id="containerspan">
+                    <img src="./images/icons/javascript.png" class="tech-icon"><img src="./images/progress-bars/30.png" class="bar">
+                    </span>
+
+                    <span id="development-text">What I use in my development process:
+                        <span id="development-list">
+                        <img src="images/icons/trello.png">
+                        <img src="images/icons/slack.png">
+                        <img src="images/icons/stack-overflow.png">
+                        <img src="images/icons/chrome.png">
+                        </span>
+                        Trello, Slack, Stack Overflow and Chrome.
                     </span>
                 </p>
             </li>
@@ -108,11 +156,26 @@
             <li>
                 <input type="checkbox" checked>
                 <i></i>
-                <h2>Projects</h2>
-                <p>By making the open state default for when :checked isn't detected, we can make this system accessable
-                    for browsers that don't recognize :checked. The fallback is simply an open accordion. The accordion
-                    can be manipulated with Javascript (if needed) by changing the "checked" property of the input
-                    element.</p>
+                <h2 id="project-top">Projects</h2>
+                <p id="project-section">
+                    <span class="project-title">Plant Sim Ruby Application</span>
+                        <span class="project-info">For my first assessment studying at Coder Academy, we were required to develop an application using the Ruby programming language.
+                        I chose to develop a plant simulation game because of my love for plants and tamagotchi-like simulations. 
+                        <img src="./images/projects/plant-app-welcome-second.png">
+                        The game provides you with a virtual plant to care for and will eventually either grow into a beautiful sunflower, or wither and die, depending on how well you meet its needs. 
+                        <img src="./images/projects/plant-app-flower.png">
+                        Find all my source files HERE.
+                        <a href="#project-top">Click here to go back to the top.</a>
+                    </span>
+                    <span class="project-title">Personal Portfolio</span>
+                        <span class="project-info">This website is actually my second-ever assessment submission for Coder Academy! I designed and coded the website from scratch using HTML, CSS and using SCSS.
+                        <img src="./wireframes/Index Wireframe.png">
+                        I mean for the website to serve as my main showcase of my ability in website design and development, as well as a gateway to connect to me personally. 
+                        <img src="./images/projects/website-css-screen.png">
+                        Find all my website files HERE.
+                        <a href="#project-top">Click here to go back to the top.</a>
+                    </span>                    
+                </p>
             </li>
         </ul>
     </div>
