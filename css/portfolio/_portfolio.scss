@@ -56,6 +56,9 @@ body {
                     .project-info {
                         @include flex-column;
                         margin: 6px 0px;
+                        a {
+                            color: $white;
+                        }
                         img {
                             background-color: $white;
                             max-width: 100%;

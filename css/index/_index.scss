@@ -6,6 +6,8 @@ body {
     .index-section {
         h1 {
             @include serif-font;
+            color: $white;
+            text-shadow: 1px 1px 3px black;
         }
 
         hr {

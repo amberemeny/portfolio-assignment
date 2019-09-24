@@ -1,5 +1,7 @@
 body .index-section h1 {
   font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
+  color: #D2CCCA;
+  text-shadow: 1px 1px 3px black;
 }
 
 body .index-section hr {
@@ -16,13 +18,13 @@ body .index-section article {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #FFF6EF;
+  background-color: #D2CCCA;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-shadow: 2px 2px 10px black;
           box-shadow: 2px 2px 10px black;
-  border: 6px solid #656839;
+  border: 6px solid #385559;
 }
 
 body .index-section article h2 {
@@ -183,7 +185,7 @@ body #accordian ul li #technical-skills {
 }
 
 body #accordian ul li #technical-skills .skill-title {
-  color: #FFF6EF;
+  color: #D2CCCA;
 }
 
 body #accordian ul li #technical-skills #containerspan {
@@ -212,10 +214,10 @@ body #accordian ul li #technical-skills #containerspan .bar {
 }
 
 body #accordian ul li #technical-skills #development-text {
-  background-color: #FFF6EF;
+  background-color: #D2CCCA;
   margin: 8px 0px;
   padding-left: 6px;
-  border: 6px solid #313E50;
+  border: 6px solid #03415a;
 }
 
 body #accordian ul li #technical-skills #development-text #development-list {
@@ -250,7 +252,7 @@ body #accordian ul li #project-section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #FFF6EF;
+  color: #D2CCCA;
 }
 
 body #accordian ul li #project-section .project-title {
@@ -271,8 +273,12 @@ body #accordian ul li #project-section .project-info {
   margin: 6px 0px;
 }
 
+body #accordian ul li #project-section .project-info a {
+  color: #D2CCCA;
+}
+
 body #accordian ul li #project-section .project-info img {
-  background-color: #FFF6EF;
+  background-color: #D2CCCA;
   max-width: 100%;
   margin: 10px;
   -webkit-box-shadow: 2px 2px 5px black;
@@ -280,7 +286,7 @@ body #accordian ul li #project-section .project-info img {
 }
 
 body #accordian ul li #interactive-skills {
-  color: #FFF6EF;
+  color: #D2CCCA;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -325,10 +331,10 @@ body #accordian ul li #about-me-wrapper {
 }
 
 body #accordian ul li #about-me-wrapper #about-me {
-  background-color: #FFF6EF;
+  background-color: #D2CCCA;
   margin: 6px;
   padding: 6px;
-  border: 6px solid #313E50;
+  border: 6px solid #03415a;
 }
 
 @media screen and (min-width: 600px) {
@@ -341,7 +347,7 @@ body #accordian ul li #about-me-wrapper #about-me {
             align-items: center;
   }
   body #accordian ul li #technical-skills .skill-title {
-    color: #FFF6EF;
+    color: #D2CCCA;
     -ms-flex-item-align: start;
         align-self: flex-start;
     margin-left: 6%;
@@ -410,7 +416,7 @@ body #accordian ul li #about-me-wrapper #about-me {
           perspective: 900;
   padding: 3px 0px;
   margin: 0;
-  background-color: #656839;
+  background-color: #385559;
   -webkit-box-shadow: 2px 2px 8px black;
           box-shadow: 2px 2px 8px black;
 }
@@ -419,7 +425,7 @@ body #accordian ul li #about-me-wrapper #about-me {
   font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
   margin: 3px 6px;
   padding: 10px;
-  background-color: #FFF6EF;
+  background-color: #D2CCCA;
   text-transform: uppercase;
   font-size: 1.2em;
   letter-spacing: 2px;
@@ -489,18 +495,18 @@ body #accordian ul li #about-me-wrapper #about-me {
 }
 
 body main #form-container {
-  background-color: #313E50;
+  background-color: #03415a;
   margin: 20px;
   padding: 6px;
 }
 
 body main #form-container h1 {
   font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
-  background-color: #656839;
+  background-color: #385559;
   text-align: center;
   text-transform: uppercase;
   text-shadow: 1px 1px 3px black;
-  color: #FFF6EF;
+  color: #D2CCCA;
   font-size: 1.5em;
   letter-spacing: 2px;
   padding: 3px 0px 3px 10px;
@@ -510,7 +516,7 @@ body main #form-container h1 {
 
 body main #form-container form {
   color: black;
-  background-color: #FFF6EF;
+  background-color: #D2CCCA;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -532,23 +538,23 @@ body main #form-container form input {
   margin: 0px 6px;
   font-size: 1.2em;
   max-width: 100%;
-  border: 6px solid #656839;
+  border: 6px solid #385559;
 }
 
 body main #form-container form input:focus {
-  border: 6px solid #313E50;
+  border: 6px solid #03415a;
 }
 
 body main #form-container form textarea {
   margin: 0px 6px;
   height: 150px;
   max-width: 100%;
-  border: 6px solid #656839;
+  border: 6px solid #385559;
   font-size: 1.2em;
 }
 
 body main #form-container form textarea:focus {
-  border: 6px solid #313E50;
+  border: 6px solid #03415a;
 }
 
 body main #form-container form #submit {
@@ -614,7 +620,7 @@ body #blog-main #blog-wrapper {
 }
 
 body #blog-main #blog-wrapper #blog-nav {
-  background-color: #656839;
+  background-color: #385559;
   margin-bottom: 6px;
   padding: 6px;
 }
@@ -622,12 +628,12 @@ body #blog-main #blog-wrapper #blog-nav {
 body #blog-main #blog-wrapper #blog-nav nav h3 {
   font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
   padding: 3px 6px;
-  background-color: #FFF6EF;
+  background-color: #D2CCCA;
   margin-bottom: 6px;
 }
 
 body #blog-main #blog-wrapper #blog-nav nav ul {
-  background-color: #FFF6EF;
+  background-color: #D2CCCA;
 }
 
 body #blog-main #blog-wrapper #blog-nav nav ul li {
@@ -647,24 +653,24 @@ body #blog-main #blog-wrapper #blog-nav nav ul li a:hover {
 }
 
 body #blog-main #blog-wrapper #blog-section-wrapper {
-  background-color: #313E50;
+  background-color: #03415a;
 }
 
 body #blog-main #blog-wrapper #blog-section-wrapper .blog-section {
-  background-color: #656839;
+  background-color: #385559;
   margin: 6px;
   padding: 6px;
 }
 
 body #blog-main #blog-wrapper #blog-section-wrapper .blog-section h2 {
-  background-color: #FFF6EF;
+  background-color: #D2CCCA;
   margin-bottom: 6px;
   text-align: left;
   padding: 3px 3px 3px 6px;
 }
 
 body #blog-main #blog-wrapper #blog-section-wrapper .blog-section .blog-article-content {
-  background-color: #FFF6EF;
+  background-color: #D2CCCA;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -703,7 +709,7 @@ body #blog-main #blog-wrapper #blog-section-wrapper .blog-section .blog-article-
     border: solid 6px #313313;
   }
   body #jump:hover {
-    border: solid 6px #313E50;
+    border: solid 6px #03415a;
   }
   body #jump a {
     display: -webkit-box;
@@ -721,7 +727,7 @@ body #blog-main #blog-wrapper #blog-section-wrapper .blog-section .blog-article-
             align-items: center;
     text-decoration: none;
     color: black;
-    background-color: #FFF6EF;
+    background-color: #D2CCCA;
     width: 100%;
     max-height: 100%;
   }
@@ -762,11 +768,13 @@ body #blog-main #blog-wrapper #blog-section-wrapper .blog-section .blog-article-
 }
 
 body {
-  background-image: url(../images/background4.png);
+  background-image: url(../images/bg-tiles/background-tile.png);
 }
 
 body header #splash-wrapper #splash-content {
-  background-image: url(../images/background2.png);
+  background-image: url(../images/banner-images/master-banner.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 body header #splash-wrapper #splash-content section {
@@ -817,7 +825,7 @@ body header #splash-wrapper #splash-content section hr {
 }
 
 body header #nav-socials-wrapper #navigation {
-  background-color: #313E50;
+  background-color: #03415a;
 }
 
 body header #nav-socials-wrapper #navigation ul {
@@ -837,7 +845,7 @@ body header #nav-socials-wrapper #navigation ul .nav-links {
       -ms-flex-pack: center;
           justify-content: center;
   max-width: 100%;
-  background-color: #FFF6EF;
+  background-color: #D2CCCA;
   padding: 10px;
   margin: 3px 0px;
 }
@@ -854,7 +862,7 @@ body header #nav-socials-wrapper #navigation ul .nav-links a {
 }
 
 body header #nav-socials-wrapper #navigation ul .nav-links a:hover {
-  color: #656839;
+  color: #385559;
 }
 
 body header #nav-socials-wrapper #navigation ul .nav-links a:active {
@@ -883,7 +891,7 @@ body header #nav-socials-wrapper #navigation ul #socials-button #dropdown {
           align-items: center;
   position: absolute;
   top: 42px;
-  background-color: #313E50;
+  background-color: #03415a;
   -webkit-box-shadow: 2px 2px 10px black;
           box-shadow: 2px 2px 10px black;
   z-index: 5;
@@ -897,7 +905,7 @@ body header #nav-socials-wrapper #navigation ul #socials-button #dropdown:hover 
 
 body header #nav-socials-wrapper #navigation ul #socials-button #dropdown li {
   list-style-type: none;
-  background-color: #FFF6EF;
+  background-color: #D2CCCA;
   margin: 3px 0px;
   width: 100%;
 }
@@ -916,12 +924,12 @@ body header #nav-socials-wrapper #navigation ul #socials-button #dropdown li a {
 }
 
 body header #nav-socials-wrapper #navigation ul #socials-button #dropdown li a:hover {
-  color: #656839;
+  color: #385559;
 }
 
 body header #nav-socials-wrapper #navigation ul #socials-button #dropdown li a:hover img {
-  -webkit-filter: drop-shadow(0px 0px 3px #656839);
-          filter: drop-shadow(0px 0px 3px #656839);
+  -webkit-filter: drop-shadow(0px 0px 3px #385559);
+          filter: drop-shadow(0px 0px 3px #385559);
 }
 
 body header #nav-socials-wrapper #navigation ul #socials-button #dropdown li a p {
@@ -939,8 +947,8 @@ body header #nav-socials-wrapper #navigation ul #socials-button #dropdown li a i
 }
 
 body header #nav-socials-wrapper #socials {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#313E50), to(transparent));
-  background-image: linear-gradient(#313E50, transparent);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#03415a), to(transparent));
+  background-image: linear-gradient(#03415a, transparent);
 }
 
 body header #nav-socials-wrapper #socials ul {
@@ -978,7 +986,7 @@ body footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #313E50;
+  background-color: #03415a;
   padding: 0px;
 }
 
@@ -986,7 +994,7 @@ body footer p {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
-  background-color: #FFF6EF;
+  background-color: #D2CCCA;
   margin: 6px 0px;
   width: 100%;
   padding: 10px;

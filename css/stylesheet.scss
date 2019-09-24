@@ -14,18 +14,16 @@
 
 
 body {
-    background-image: url(../images/background4.png);
+    // Background tile image.
+    background-image: url(../images/bg-tiles/background-tile.png);
 
     header {
-
+        // Wrapper for banner.
         #splash-wrapper {
-
             #splash-content {
-                // background-color: yellow;
-                background-image: url(../images/background2.png);
-
-
-
+                background-image: url(../images/banner-images/master-banner.jpg);
+                background-position: center;
+                background-size: cover;
                 section {
                     color: white;
                     display: flex;
@@ -33,28 +31,22 @@ body {
                     align-items: center;
                     padding: 20px;
                     transition: backdrop-filter 1s;
-
                     &:hover {
                         backdrop-filter: blur(3px);
                     }
-
                     p {
-                        // background-color: green;
                         text-align: center;
                         text-shadow: 0px 0px 5px black;
-
                         span {
                             font-size: 2em;
                             text-transform: uppercase;
                             transition: font-size 0.5s;
                             font-family: $serif;
-
                             &:hover {
                                 font-size: 3em;
                             }
                         }
                     }
-
                     hr {
                         width: 100px;
                         margin: 10px auto;
@@ -63,29 +55,21 @@ body {
                 }
             }
         }
-
         #nav-socials-wrapper {
-            // background-color: aqua;
-
             #navigation {
-                background-color: #313E50;
-
+                background-color: $blue;
                 ul {
-                    // background-color: purple;
                     display: flex;
                     flex-direction: column;
                     padding: 3px 0px;
-
                     .nav-links {
                         display: inherit;
                         justify-content: center;
                         max-width: 100%;
-                        background-color: #FFF6EF;
+                        background-color: $white;
                         padding: 10px;
                         margin: 3px 0px;
-
                         a {
-                            // background-color: pink;
                             text-transform: uppercase;
                             text-decoration: none;
                             letter-spacing: 3px;
@@ -93,67 +77,53 @@ body {
                             transition: color ease-in-out 0.3s;
                             font-weight: bold;
                             font-family: $serif;
-
                             &:hover {
-                                color: #656839;
+                                color: $green;
                             }
-
                             &:active {
                                 color: #F7D9C3;
                             }
                         }
                     }
-
                     #socials-button {
                         display: none;
                         position: relative;
-
-
                         &:hover>#dropdown {
                             display: flex;
                         }
-
                         #dropdown {
                             display: none;
                             flex-direction: column;
                             align-items: center;
                             position: absolute;
                             top: 42px;
-                            background-color: #313E50;
+                            background-color: $blue;
                             box-shadow: 2px 2px 10px black;
                             z-index: 5;
-
                             &:hover {
                                 display: flex;
                             }
-
                             li {
                                 list-style-type: none;
-                                background-color: #FFF6EF;
+                                background-color: $white;
                                 margin: 3px 0px;
                                 width: 100%;
-
                                 a {
                                     display: flex;
                                     justify-content: center;
                                     padding: 5px 20px;
                                     color: black;
                                     transition: text-shadow 0.3s;
-
                                     &:hover {
-                                        color: #656839;
+                                        color: $green;
                                         img {
-                                            filter: drop-shadow(0px 0px 3px #656839);
+                                            filter: drop-shadow(0px 0px 3px $green);
                                         }
                                     }
-
-                                    // background-color: yellow;
                                     p {
-                                        // background-color: purple;
                                         display: flex;
                                         align-items: center;
                                     }
-
                                     img {
                                         // background-color: blue;
                                         max-width: 30px;
@@ -167,23 +137,18 @@ body {
             }
 
             #socials {
-                background-image: linear-gradient(#313E50, transparent);
-
+                background-image: linear-gradient($blue, transparent);
                 ul {
                     display: flex;
                     justify-content: space-evenly;
                     padding: 10px;
-
                     li {
                         list-style-type: none;
-
                         a {
                             display: flex;
-
                             img {
                                 max-width: 50px;
                                 transition: all 0.3s;
-
                                 &:hover {
                                     filter: drop-shadow(0px 0px 3px white);
                                 }
@@ -194,17 +159,15 @@ body {
             }
         }
     }
-
     footer {
         display: flex;
-        background-color: #313E50;
+        background-color: $blue;
         padding: 0px;
-
         p {
             text-align: center;
             text-transform: uppercase;
             letter-spacing: 1px;
-            background-color: #FFF6EF;
+            background-color: $white;
             margin: 6px 0px;
             width: 100%;
             padding: 10px;
@@ -212,7 +175,6 @@ body {
         }
     }
 }
-
 @media screen and (min-width: 600px) {
     body {
         header {
@@ -229,14 +191,10 @@ body {
                             display: flex;
                             flex-direction: column;
                             li {
-
                             }
-
-                            a {}
                         }
                     }
                 }
-
                 #socials {
                     display: none;
                 }
