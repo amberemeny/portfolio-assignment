@@ -1,7 +1,6 @@
 body .index-section h1 {
   font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
-  color: #D2CCCA;
-  text-shadow: 1px 1px 3px black;
+  text-shadow: 1px 1px 2px rgba(245, 236, 236, 0.308);
 }
 
 body .index-section hr {
@@ -18,13 +17,13 @@ body .index-section article {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #D2CCCA;
+  background-color: #e6e6e6;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-shadow: 2px 2px 10px black;
           box-shadow: 2px 2px 10px black;
-  border: 6px solid #385559;
+  border: 6px solid #eba133;
 }
 
 body .index-section article h2 {
@@ -184,10 +183,6 @@ body #accordian ul li #technical-skills {
           flex-direction: column;
 }
 
-body #accordian ul li #technical-skills .skill-title {
-  color: #D2CCCA;
-}
-
 body #accordian ul li #technical-skills #containerspan {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -214,10 +209,10 @@ body #accordian ul li #technical-skills #containerspan .bar {
 }
 
 body #accordian ul li #technical-skills #development-text {
-  background-color: #D2CCCA;
+  background-color: #e6e6e6;
   margin: 8px 0px;
   padding-left: 6px;
-  border: 6px solid #03415a;
+  border: 6px solid #424242;
 }
 
 body #accordian ul li #technical-skills #development-text #development-list {
@@ -252,14 +247,13 @@ body #accordian ul li #project-section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #D2CCCA;
 }
 
 body #accordian ul li #project-section .project-title {
   font-weight: bold;
   font-size: 1.5em;
   margin-top: 6px;
-  text-shadow: 2px 2px 4px black;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.445);
 }
 
 body #accordian ul li #project-section .project-info {
@@ -274,11 +268,11 @@ body #accordian ul li #project-section .project-info {
 }
 
 body #accordian ul li #project-section .project-info a {
-  color: #D2CCCA;
+  color: purple;
 }
 
 body #accordian ul li #project-section .project-info img {
-  background-color: #D2CCCA;
+  background-color: #e6e6e6;
   max-width: 100%;
   margin: 10px;
   -webkit-box-shadow: 2px 2px 5px black;
@@ -286,7 +280,6 @@ body #accordian ul li #project-section .project-info img {
 }
 
 body #accordian ul li #interactive-skills {
-  color: #D2CCCA;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -316,7 +309,7 @@ body #accordian ul li #interactive-skills .interactive-section {
 body #accordian ul li #interactive-skills .interactive-section .interactive-title {
   font-size: 1.5em;
   font-weight: bold;
-  text-shadow: 2px 2px 4px black;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.514);
   margin-bottom: 6px;
 }
 
@@ -331,10 +324,10 @@ body #accordian ul li #about-me-wrapper {
 }
 
 body #accordian ul li #about-me-wrapper #about-me {
-  background-color: #D2CCCA;
+  background-color: #e6e6e6;
   margin: 6px;
   padding: 6px;
-  border: 6px solid #03415a;
+  border: 6px solid #424242;
 }
 
 @media screen and (min-width: 600px) {
@@ -347,7 +340,7 @@ body #accordian ul li #about-me-wrapper #about-me {
             align-items: center;
   }
   body #accordian ul li #technical-skills .skill-title {
-    color: #D2CCCA;
+    color: #e6e6e6;
     -ms-flex-item-align: start;
         align-self: flex-start;
     margin-left: 6%;
@@ -416,7 +409,7 @@ body #accordian ul li #about-me-wrapper #about-me {
           perspective: 900;
   padding: 3px 0px;
   margin: 0;
-  background-color: #385559;
+  background-color: #eba133;
   -webkit-box-shadow: 2px 2px 8px black;
           box-shadow: 2px 2px 8px black;
 }
@@ -425,7 +418,7 @@ body #accordian ul li #about-me-wrapper #about-me {
   font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
   margin: 3px 6px;
   padding: 10px;
-  background-color: #D2CCCA;
+  background-color: #e6e6e6;
   text-transform: uppercase;
   font-size: 1.2em;
   letter-spacing: 2px;
@@ -495,18 +488,18 @@ body #accordian ul li #about-me-wrapper #about-me {
 }
 
 body main #form-container {
-  background-color: #03415a;
+  background-color: #424242;
   margin: 20px;
   padding: 6px;
 }
 
 body main #form-container h1 {
   font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
-  background-color: #385559;
+  background-color: #eba133;
   text-align: center;
   text-transform: uppercase;
   text-shadow: 1px 1px 3px black;
-  color: #D2CCCA;
+  color: #e6e6e6;
   font-size: 1.5em;
   letter-spacing: 2px;
   padding: 3px 0px 3px 10px;
@@ -516,7 +509,7 @@ body main #form-container h1 {
 
 body main #form-container form {
   color: black;
-  background-color: #D2CCCA;
+  background-color: #e6e6e6;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -538,23 +531,23 @@ body main #form-container form input {
   margin: 0px 6px;
   font-size: 1.2em;
   max-width: 100%;
-  border: 6px solid #385559;
+  border: 6px solid #eba133;
 }
 
 body main #form-container form input:focus {
-  border: 6px solid #03415a;
+  border: 6px solid #424242;
 }
 
 body main #form-container form textarea {
   margin: 0px 6px;
   height: 150px;
   max-width: 100%;
-  border: 6px solid #385559;
+  border: 6px solid #eba133;
   font-size: 1.2em;
 }
 
 body main #form-container form textarea:focus {
-  border: 6px solid #03415a;
+  border: 6px solid #424242;
 }
 
 body main #form-container form #submit {
@@ -620,20 +613,21 @@ body #blog-main #blog-wrapper {
 }
 
 body #blog-main #blog-wrapper #blog-nav {
-  background-color: #385559;
+  background-color: #424242;
   margin-bottom: 6px;
   padding: 6px;
+  border: solid 6px #eba133;
 }
 
 body #blog-main #blog-wrapper #blog-nav nav h3 {
   font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
   padding: 3px 6px;
-  background-color: #D2CCCA;
+  background-color: #e6e6e6;
   margin-bottom: 6px;
 }
 
 body #blog-main #blog-wrapper #blog-nav nav ul {
-  background-color: #D2CCCA;
+  background-color: #e6e6e6;
 }
 
 body #blog-main #blog-wrapper #blog-nav nav ul li {
@@ -649,28 +643,28 @@ body #blog-main #blog-wrapper #blog-nav nav ul li a {
 }
 
 body #blog-main #blog-wrapper #blog-nav nav ul li a:hover {
-  color: #313313;
+  color: #eba133;
 }
 
 body #blog-main #blog-wrapper #blog-section-wrapper {
-  background-color: #03415a;
+  background-color: #eba133;
 }
 
 body #blog-main #blog-wrapper #blog-section-wrapper .blog-section {
-  background-color: #385559;
+  background-color: #424242;
   margin: 6px;
   padding: 6px;
 }
 
 body #blog-main #blog-wrapper #blog-section-wrapper .blog-section h2 {
-  background-color: #D2CCCA;
+  background-color: #e6e6e6;
   margin-bottom: 6px;
   text-align: left;
   padding: 3px 3px 3px 6px;
 }
 
 body #blog-main #blog-wrapper #blog-section-wrapper .blog-section .blog-article-content {
-  background-color: #D2CCCA;
+  background-color: #e6e6e6;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -709,7 +703,7 @@ body #blog-main #blog-wrapper #blog-section-wrapper .blog-section .blog-article-
     border: solid 6px #313313;
   }
   body #jump:hover {
-    border: solid 6px #03415a;
+    border: solid 6px #424242;
   }
   body #jump a {
     display: -webkit-box;
@@ -727,7 +721,7 @@ body #blog-main #blog-wrapper #blog-section-wrapper .blog-section .blog-article-
             align-items: center;
     text-decoration: none;
     color: black;
-    background-color: #D2CCCA;
+    background-color: #e6e6e6;
     width: 100%;
     max-height: 100%;
   }
@@ -768,11 +762,11 @@ body #blog-main #blog-wrapper #blog-section-wrapper .blog-section .blog-article-
 }
 
 body {
-  background-image: url(../images/bg-tiles/background-tile.png);
+  background-image: url(../images/bg-tiles/background-tile-4.png);
 }
 
 body header #splash-wrapper #splash-content {
-  background-image: url(../images/banner-images/master-banner.jpg);
+  background-image: url(../images/banner-images/banner-3.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -825,7 +819,7 @@ body header #splash-wrapper #splash-content section hr {
 }
 
 body header #nav-socials-wrapper #navigation {
-  background-color: #03415a;
+  background-color: #424242;
 }
 
 body header #nav-socials-wrapper #navigation ul {
@@ -845,7 +839,7 @@ body header #nav-socials-wrapper #navigation ul .nav-links {
       -ms-flex-pack: center;
           justify-content: center;
   max-width: 100%;
-  background-color: #D2CCCA;
+  background-color: #e6e6e6;
   padding: 10px;
   margin: 3px 0px;
 }
@@ -862,7 +856,7 @@ body header #nav-socials-wrapper #navigation ul .nav-links a {
 }
 
 body header #nav-socials-wrapper #navigation ul .nav-links a:hover {
-  color: #385559;
+  color: #eba133;
 }
 
 body header #nav-socials-wrapper #navigation ul .nav-links a:active {
@@ -891,7 +885,7 @@ body header #nav-socials-wrapper #navigation ul #socials-button #dropdown {
           align-items: center;
   position: absolute;
   top: 42px;
-  background-color: #03415a;
+  background-color: #424242;
   -webkit-box-shadow: 2px 2px 10px black;
           box-shadow: 2px 2px 10px black;
   z-index: 5;
@@ -905,7 +899,7 @@ body header #nav-socials-wrapper #navigation ul #socials-button #dropdown:hover 
 
 body header #nav-socials-wrapper #navigation ul #socials-button #dropdown li {
   list-style-type: none;
-  background-color: #D2CCCA;
+  background-color: #e6e6e6;
   margin: 3px 0px;
   width: 100%;
 }
@@ -924,12 +918,12 @@ body header #nav-socials-wrapper #navigation ul #socials-button #dropdown li a {
 }
 
 body header #nav-socials-wrapper #navigation ul #socials-button #dropdown li a:hover {
-  color: #385559;
+  color: #eba133;
 }
 
 body header #nav-socials-wrapper #navigation ul #socials-button #dropdown li a:hover img {
-  -webkit-filter: drop-shadow(0px 0px 3px #385559);
-          filter: drop-shadow(0px 0px 3px #385559);
+  -webkit-filter: drop-shadow(0px 0px 3px #eba133);
+          filter: drop-shadow(0px 0px 3px #eba133);
 }
 
 body header #nav-socials-wrapper #navigation ul #socials-button #dropdown li a p {
@@ -947,8 +941,8 @@ body header #nav-socials-wrapper #navigation ul #socials-button #dropdown li a i
 }
 
 body header #nav-socials-wrapper #socials {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#03415a), to(transparent));
-  background-image: linear-gradient(#03415a, transparent);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#424242), to(transparent));
+  background-image: linear-gradient(#424242, transparent);
 }
 
 body header #nav-socials-wrapper #socials ul {
@@ -986,7 +980,7 @@ body footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #03415a;
+  background-color: #424242;
   padding: 0px;
 }
 
@@ -994,7 +988,7 @@ body footer p {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
-  background-color: #D2CCCA;
+  background-color: #e6e6e6;
   margin: 6px 0px;
   width: 100%;
   padding: 10px;

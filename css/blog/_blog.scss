@@ -21,9 +21,10 @@ body {
 
             // Blog quick-navigation.
             #blog-nav {
-                background-color: $green;
+                background-color: $blue;
                 margin-bottom: 6px;
                 padding: 6px;
+                border: solid 6px $green;
 
                 nav {
                     h3 {
@@ -45,7 +46,7 @@ body {
                                 color: navy;
 
                                 &:hover {
-                                    color: #313313;
+                                    color: $green;
                                 }
                             }
                         }
@@ -55,11 +56,11 @@ body {
 
             // Wrapper of blog headings and content.
             #blog-section-wrapper {
-                background-color: $blue;
+                background-color: $green;
 
                 // Class for headings and articles.
                 .blog-section {
-                    background-color: $green;
+                    background-color: $blue;
                     margin: 6px;
                     padding: 6px;
 
