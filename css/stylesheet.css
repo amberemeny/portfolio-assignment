@@ -23,7 +23,7 @@ body .index-section article {
           align-items: center;
   -webkit-box-shadow: 2px 2px 10px black;
           box-shadow: 2px 2px 10px black;
-  border: 6px solid #eba133;
+  border: 6px solid #DFB0C4;
 }
 
 body .index-section article h2 {
@@ -212,7 +212,7 @@ body #accordian ul li #technical-skills #development-text {
   background-color: #e6e6e6;
   margin: 8px 0px;
   padding-left: 6px;
-  border: 6px solid #424242;
+  border: 6px solid #55598d;
 }
 
 body #accordian ul li #technical-skills #development-text #development-list {
@@ -327,7 +327,7 @@ body #accordian ul li #about-me-wrapper #about-me {
   background-color: #e6e6e6;
   margin: 6px;
   padding: 6px;
-  border: 6px solid #424242;
+  border: 6px solid #55598d;
 }
 
 @media screen and (min-width: 600px) {
@@ -409,7 +409,7 @@ body #accordian ul li #about-me-wrapper #about-me {
           perspective: 900;
   padding: 3px 0px;
   margin: 0;
-  background-color: #eba133;
+  background-color: #DFB0C4;
   -webkit-box-shadow: 2px 2px 8px black;
           box-shadow: 2px 2px 8px black;
 }
@@ -488,14 +488,14 @@ body #accordian ul li #about-me-wrapper #about-me {
 }
 
 body main #form-container {
-  background-color: #424242;
+  background-color: #55598d;
   margin: 20px;
   padding: 6px;
 }
 
 body main #form-container h1 {
   font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;
-  background-color: #eba133;
+  background-color: #DFB0C4;
   text-align: center;
   text-transform: uppercase;
   text-shadow: 1px 1px 3px black;
@@ -531,23 +531,23 @@ body main #form-container form input {
   margin: 0px 6px;
   font-size: 1.2em;
   max-width: 100%;
-  border: 6px solid #eba133;
+  border: 6px solid #DFB0C4;
 }
 
 body main #form-container form input:focus {
-  border: 6px solid #424242;
+  border: 6px solid #55598d;
 }
 
 body main #form-container form textarea {
   margin: 0px 6px;
   height: 150px;
   max-width: 100%;
-  border: 6px solid #eba133;
+  border: 6px solid #DFB0C4;
   font-size: 1.2em;
 }
 
 body main #form-container form textarea:focus {
-  border: 6px solid #424242;
+  border: 6px solid #55598d;
 }
 
 body main #form-container form #submit {
@@ -613,10 +613,10 @@ body #blog-main #blog-wrapper {
 }
 
 body #blog-main #blog-wrapper #blog-nav {
-  background-color: #424242;
+  background-color: #55598d;
   margin-bottom: 6px;
   padding: 6px;
-  border: solid 6px #eba133;
+  border: solid 6px #DFB0C4;
 }
 
 body #blog-main #blog-wrapper #blog-nav nav h3 {
@@ -643,15 +643,15 @@ body #blog-main #blog-wrapper #blog-nav nav ul li a {
 }
 
 body #blog-main #blog-wrapper #blog-nav nav ul li a:hover {
-  color: #eba133;
+  color: #DFB0C4;
 }
 
 body #blog-main #blog-wrapper #blog-section-wrapper {
-  background-color: #eba133;
+  background-color: #DFB0C4;
 }
 
 body #blog-main #blog-wrapper #blog-section-wrapper .blog-section {
-  background-color: #424242;
+  background-color: #55598d;
   margin: 6px;
   padding: 6px;
 }
@@ -703,7 +703,7 @@ body #blog-main #blog-wrapper #blog-section-wrapper .blog-section .blog-article-
     border: solid 6px #313313;
   }
   body #jump:hover {
-    border: solid 6px #424242;
+    border: solid 6px #55598d;
   }
   body #jump a {
     display: -webkit-box;
@@ -766,8 +766,8 @@ body {
 }
 
 body header #splash-wrapper #splash-content {
-  background-image: url(../images/banner-images/banner-3.jpg);
-  background-position: center;
+  background-image: url(../images/banner-images/banner-4.jpg);
+  background-position: 0px -600px;
   background-size: cover;
 }
 
@@ -819,7 +819,7 @@ body header #splash-wrapper #splash-content section hr {
 }
 
 body header #nav-socials-wrapper #navigation {
-  background-color: #424242;
+  background-color: #55598d;
 }
 
 body header #nav-socials-wrapper #navigation ul {
@@ -856,7 +856,7 @@ body header #nav-socials-wrapper #navigation ul .nav-links a {
 }
 
 body header #nav-socials-wrapper #navigation ul .nav-links a:hover {
-  color: #eba133;
+  color: #DFB0C4;
 }
 
 body header #nav-socials-wrapper #navigation ul .nav-links a:active {
@@ -885,7 +885,7 @@ body header #nav-socials-wrapper #navigation ul #socials-button #dropdown {
           align-items: center;
   position: absolute;
   top: 42px;
-  background-color: #424242;
+  background-color: #55598d;
   -webkit-box-shadow: 2px 2px 10px black;
           box-shadow: 2px 2px 10px black;
   z-index: 5;
@@ -918,12 +918,12 @@ body header #nav-socials-wrapper #navigation ul #socials-button #dropdown li a {
 }
 
 body header #nav-socials-wrapper #navigation ul #socials-button #dropdown li a:hover {
-  color: #eba133;
+  color: #DFB0C4;
 }
 
 body header #nav-socials-wrapper #navigation ul #socials-button #dropdown li a:hover img {
-  -webkit-filter: drop-shadow(0px 0px 3px #eba133);
-          filter: drop-shadow(0px 0px 3px #eba133);
+  -webkit-filter: drop-shadow(0px 0px 3px #DFB0C4);
+          filter: drop-shadow(0px 0px 3px #DFB0C4);
 }
 
 body header #nav-socials-wrapper #navigation ul #socials-button #dropdown li a p {
@@ -941,8 +941,8 @@ body header #nav-socials-wrapper #navigation ul #socials-button #dropdown li a i
 }
 
 body header #nav-socials-wrapper #socials {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#424242), to(transparent));
-  background-image: linear-gradient(#424242, transparent);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#55598d), to(transparent));
+  background-image: linear-gradient(#55598d, transparent);
 }
 
 body header #nav-socials-wrapper #socials ul {
@@ -980,7 +980,7 @@ body footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #424242;
+  background-color: #55598d;
   padding: 0px;
 }
 
