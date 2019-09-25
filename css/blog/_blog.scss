@@ -24,7 +24,7 @@ body {
                 background-color: $green;
                 margin-bottom: 6px;
                 padding: 6px;
-
+                border: solid 6px $blue;
                 nav {
                     h3 {
                         @include serif-font;

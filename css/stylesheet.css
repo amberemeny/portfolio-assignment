@@ -623,6 +623,7 @@ body #blog-main #blog-wrapper #blog-nav {
   background-color: #385559;
   margin-bottom: 6px;
   padding: 6px;
+  border: solid 6px #03415a;
 }
 
 body #blog-main #blog-wrapper #blog-nav nav h3 {
