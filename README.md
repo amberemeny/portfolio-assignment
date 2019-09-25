@@ -12,6 +12,7 @@ I used HTML, CSS and SCSS for code, Github for version management and deployment
 
 ## Navigation
 ![Mobile Navigation](https://github.com/amberemeny/portfolio-assignment/blob/master/presentation/narrow-nav.png?raw=true)
+
 *Mobile Navigation*
 ### Mockup Decisions
 -   Navigation is an unordered list displayed as stacked blocks in mobile and horizontal aligned blocks in tablet and desktop.    
@@ -74,3 +75,17 @@ I used HTML, CSS and SCSS for code, Github for version management and deployment
 -   Text inputs and text area - used to gather data for the users message. 
 -   Submit buttons - used to activate the action to send the users message.    
 -   Divs - used to wrap and contain main content.
+
+## Criteria
+- [X] INT1012-1.1: Develops semantically and syntactically valid and complete HTML/XHTML documents.
+- [X] INT1012-1.2: Develops a website using HTML documents which conform with a design brief.
+- [X] INT1012-1.3: Utilises HTML5 semantic elements to add meaning and cater for accessibility.
+- [X] INT1012-3.1: Presents wireframes/mockups which address the design brief and components required.
+- [X] INT1012-3.2: Outlines how planned pages, components and styling will engage audience.
+- [X] INT1012-3.3: Presents an overview or sitemap which conforms with the design brief. **Presented in slides.**
+- [X] INT1012-4.1: Utilises HTML and CSS to create components which communicates text content with clarity.
+- [X] INT1012-4.2: Utilises HTML and CSS to create components which convey meaning with clarity using graphical content.
+- [X] INT1012-4.3: Utilises HTML and CSS to combine components to create a website with a purpose which aligns with the brief.
+- [X] INT1012-5.1: Utilises Flexbox and/or CSS Grid to create a range of functional web page elements.
+- [X] INT1012-5.2: Utilise subresource integrity to enable browsers to correctly recreate functional web page elements without unexpected manipulation.
+- [X] INT1012-5.3: Utilise source control to provide different versions of an application for consideration by client.
